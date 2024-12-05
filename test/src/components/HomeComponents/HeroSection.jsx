@@ -18,9 +18,7 @@ const HeroSection = () => {
     {/*content of hero here*/}
     <div className="relative z-10 flex items-center justify-center pt-5 md:px-5 lg:px-6 xl:px-9 md:pt-9">
       {/* container hero */}
-      <div className="flex flex-col-reverse md:flex-row gap-3 w-full bg-purple-500 sm:bg-transparent 
-      md:bg-pink-200 lg:bg-green-300 
-      xl:bg-yellow-300 h-screen">
+      <div className="flex flex-col-reverse md:flex-row gap-3 w-full sm:bg-transparent  h-screen">
         {/* left side */}
         <div className="w-full md:w-1/2 px-10 md:p-0 flex items-center justify-center">
           <div className="flex flex-col items-center md:items-start gap-1 md:gap-5 lg:gap-8">

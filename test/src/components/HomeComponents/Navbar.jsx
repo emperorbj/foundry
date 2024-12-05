@@ -47,11 +47,11 @@ const Navbar = () => {
           </h2>
           <img src="/arrow.png" alt="arrow" />
         </Button>
-        <DropdownMenu>
-          <DropdownMenuTrigger>
-            <MenuIcon/>
+        <DropdownMenu className="block md:hidden">
+          <DropdownMenuTrigger className="block md:hidden">
+            <MenuIcon />
           </DropdownMenuTrigger>
-          <DropdownMenuContent>
+          <DropdownMenuContent className="block md:hidden">
             <DropdownMenuItem>Home</DropdownMenuItem>
             <DropdownMenuItem>About Us</DropdownMenuItem>
             <DropdownMenuItem>Gallery</DropdownMenuItem>
