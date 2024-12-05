@@ -30,8 +30,8 @@ const HeroSection = () => {
               Whether you are a seasoned entrepreneur or just starting your journey, Founder's Friday is your launchpad 
               for new ideas, valuable connections, and game-changing opportunities.
             </p>
-            <Button className='w-[220px] md:w-[280px] lg:w-[300px] flex rounded-xl 
-            gap-1 lg:gap-2 p-0 md:px-0 md:py-5 lg:px-4 py-6 
+            <Button className='w-[220px] mt-3 md:mt-0 md:w-[280px] lg:w-[300px] flex rounded-xl 
+            gap-1 lg:gap-2 p-0 md:px- py-3 md:py-5 lg:px-4
             border border-myPurple'>
               <p className="text-myPurple md:text-[15px] lg:text-lg">
               Register For Our Next Event
@@ -40,7 +40,7 @@ const HeroSection = () => {
               <img className="h-full w-full object-cover" src="/arrow2.png" alt="arrow" />
               </div>
             </Button>
-            <p>
+            <p >
             Join Us for our next meetup on the 26th of July 2024
             </p>
             <div className="flex items-center gap-3">
@@ -57,7 +57,7 @@ const HeroSection = () => {
                 <img className="w-full h-full object-cover" src="/s4.png" alt="sponsors" />
               </div>
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 mb-6">
               <p>
               Become a collaborator today
               </p>
