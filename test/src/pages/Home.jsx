@@ -1,3 +1,4 @@
+import Faq from "@/components/HomeComponents/Faq"
 import HeroSection from "@/components/HomeComponents/HeroSection"
 import Navbar from "@/components/HomeComponents/Navbar"
 import WhoWeAre from "@/components/HomeComponents/WhoWeAre"
@@ -9,6 +10,7 @@ const Home = () => {
       <Navbar/>
       <HeroSection/>
       <WhoWeAre/>
+      <Faq/>
     </section>
   )
 }

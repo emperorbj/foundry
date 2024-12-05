@@ -7,7 +7,7 @@ const HeroSection = () => {
     <section className="relative h-screen overflow-hidden">
     {/* Background image */}
     <div
-      className="absolute -top-14 md:-top-8 lg:-top-72 xl:-top-14 md:-right-10 
+      className="absolute -top-32 sm:-top-14 md:-top-8 lg:-top-72 xl:-top-14 md:-right-10 
       lg:right-20  bg-no-repeat w-[65%] h-[500px] md:h-[400px] lg:h-[1200px] xl:h-[900px] 
       bg-contain bg-center lg:-rotate-6 xl:rotate-6 "
       style={{
@@ -16,7 +16,7 @@ const HeroSection = () => {
       }}
     ></div>
     {/*content of hero here*/}
-    <div className="relative z-10 flex items-center justify-center pt-5 md:px-5 lg:px-6 xl:px-9 md:pt-9">
+    <div className="relative z-10 flex items-center justify-center pt-3 sm:pt-5 md:px-5 lg:px-6 xl:px-9 md:pt-9">
       {/* container hero */}
       <div className="flex flex-col-reverse md:flex-row gap-3 w-full sm:bg-transparent  h-screen">
         {/* left side */}
@@ -82,7 +82,7 @@ const HeroSection = () => {
           </div>
           {/* header pictures-4 */}
           <div className="md:w-24 md:h-24 xl:w-28 xl:h-28 absolute left-20 sm:left-36 md:right-[140px] 
-          lg:left-[190px] xl:left-[340px] top-36 sm:top-[180px] md:top-[270px] lg:top-[400px]">
+          lg:left-[190px] xl:left-[340px] top-32 sm:top-[180px] md:top-[270px] lg:top-[400px]">
             <img className="object-cover h-full w-full" src="/h4.png" alt="header-pics" />
           </div>
         </div>
