@@ -3,13 +3,12 @@ import { Button } from "../ui/button"
 
 const WhoWeAre = () => {
     return (
-        <section className="font-montserrat flex md:px-3 lg:px-6 pb-14 bg-green-300 
-        sm:bg-yellow-300 md:bg-sky-300 lg:bg-pink-300">
+        <section className="font-montserrat flex md:px-3 lg:px-6 pb-14">
             <div className="w-full flex flex-col md:flex-row md:gap-1 lg:gap-5">
                 <div className="bg-red-300 w-full p-8 md:p-0 md:w-1/2">
                     <img className="object-cover h-full w-full" src="/w1.png" alt="pix" />
                 </div>
-                <div className="w-full bg-orange-300 sm:p-4 md:p-0 md:w-1/2 border-l-[5px] h-full 
+                <div className="w-full sm:p-4 md:p-0 md:w-1/2 border-l-[5px] h-full 
                 border-myPurple rounded-l-lg 
                 flex flex-col items-center md:items-start justify-between">
                     <div className="flex flex-col gap-8 md:gap-8 lg:gap-12 pl-4">

@@ -2,7 +2,7 @@ import { Button } from "../ui/button"
 
 const WhatHappens = () => {
   return (
-    <section className="font-montserrat bg-transparent sm:bg-orange-300 md:bg-sky-300 lg:bg-pink-300 relative h-screen overflow-hidden">
+    <section className="font-montserrat bg-transparent relative h-screen overflow-hidden">
     {/* Background image */}
     <div
       className="absolute -top-32 sm:-top-14 md:-top-8 lg:-top-72 xl:-top-20 md:-right-10 
@@ -31,7 +31,7 @@ const WhatHappens = () => {
             suscipit id. Maecenas ut ante quis quam lobortis consequat eu id turpis. Pellentesque habitant 
             morbi tristique senectus et netus et malesuada fames ac turpis egestas.
             </p>
-            <Button className='w-[220px] mt-3 md:mt-0 md:w-[200px] lg:w-[200px] flex rounded-md 
+            <Button className='md:mb-0 mb-8 w-[220px] mt-3 md:mt-0 md:w-[200px] lg:w-[200px] flex rounded-md 
             gap-1 lg:gap-2 p-0 md:px-4 py-3 md:py-5 lg:px-4 lg:py-6 bg-myPurple'>
               <p className="text-white md:text-[15px] lg:text-lg">
               Learn More
