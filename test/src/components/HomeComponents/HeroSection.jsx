@@ -4,7 +4,7 @@ import { Button } from "../ui/button"
 const HeroSection = () => {
   return (
 
-    <section className="relative h-screen overflow-hidden">
+    <section className="font-montserrat relative h-screen overflow-hidden">
     {/* Background image */}
     <div
       className="absolute -top-32 sm:-top-14 md:-top-8 lg:-top-72 xl:-top-14 md:-right-10 
@@ -35,7 +35,7 @@ const HeroSection = () => {
               Register For Our Next Event
               </p>
               <div className="w-6 h-6 md:w-6 md:h-6 lg:w-8 lg:h-8">
-              <img className="h-full w-full object-cover" src="/arrow2.png" alt="arrow" />
+              <img className="h-full w-full object-cover" src="/arrow3.png" alt="arrow" />
               </div>
             </Button>
             <p >
