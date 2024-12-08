@@ -25,7 +25,7 @@ const HeroSection = () => {
             <h2 className="font-semibold text-lg ">Join our premier monthly meetup for startup founders and tech visionaries</h2>
             <h1 className="md:text-2xl lg:text-3xl xl:text-4xl font-bold text-[#9524FF]">Connect, Collaborate, Innovate!</h1>
             <p className="md:text-lg md:p-0 lg:text-xl">Every last Friday of the month, we bring together the brightest minds in our local tech ecosystem. 
-              Whether you are a seasoned entrepreneur or just starting your journey, Founder's Friday is your launchpad 
+              Whether you are a seasoned entrepreneur or just starting your journey, Founder Friday is your launchpad 
               for new ideas, valuable connections, and game-changing opportunities.
             </p>
             <Button className='w-[220px] mt-3 md:mt-0 md:w-[280px] lg:w-[300px] flex rounded-xl 

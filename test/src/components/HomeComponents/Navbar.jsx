@@ -31,7 +31,7 @@ const Navbar = () => {
     font-montserrat items-center justify-between">
       <div className="flex items-center gap-2">
         <img className="w-14 h-14" src="/logo.png" alt="logo" />
-        <h1 className="font-bold text-xl">Founder's Friday</h1>
+        <h1 className="font-bold text-xl">Founder Friday</h1>
       </div>
       <ul className=" md:pl-5 lg:pl-20 hidden md:flex items-center md:gap-4 lg:gap-10">
         {

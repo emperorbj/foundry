@@ -8,7 +8,7 @@ const Footer = () => {
       </div>
       <div className="flex items-center justify-center">
         <div className="flex flex-col items-center gap-4">
-            <h1 className="font-bold text-2xl text-center md:text-3xl">Want To Be A Part Of Abuja's Biggest Tech <br/> Community?</h1>
+            <h1 className="font-bold text-2xl text-center md:text-3xl">Want To Be A Part Of Abuja Biggest Tech <br/> Community?</h1>
             <Button className='w-[220px] mt-3 md:mt-0 md:w-[280px] lg:w-[300px] flex rounded-xl 
                 gap-1 lg:gap-2 p-0 md:px- py-3 md:py-5 lg:px-4
                 border border-myPurple'>
