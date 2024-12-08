@@ -7,7 +7,7 @@ const EightSection = () => {
                 <div className="w-full p-8 md:p-0 md:w-1/2">
                     <img className="object-cover h-full w-full" src="/e1.png" alt="pix" />
                 </div>
-                <div className="w-full sm:p-4 bg-red-300 md:p-0 md:w-1/2 h-full 
+                <div className="w-full sm:p-4 md:p-0 md:w-1/2 h-full 
                     flex flex-col items-center md:items-start justify-center">
                     <div className="flex flex-col gap-8 md:gap-8 lg:gap-12 pl-4">
                         <h1 className="font-bold text-xl text-center md:text-start">At Founders Friday, Every Friday Is a Learning Experience!</h1>
