@@ -5,7 +5,7 @@ const WhoWeAre = () => {
     return (
         <section className="font-montserrat flex md:px-3 lg:px-6 pb-14">
             <div className="w-full flex flex-col md:flex-row md:gap-1 lg:gap-5">
-                <div className="bg-red-300 w-full p-8 md:p-0 md:w-1/2">
+                <div className="w-full p-8 md:p-0 md:w-1/2">
                     <img className="object-cover h-full w-full" src="/w1.png" alt="pix" />
                 </div>
                 <div className="w-full sm:p-4 md:p-0 md:w-1/2 border-l-[5px] h-full 

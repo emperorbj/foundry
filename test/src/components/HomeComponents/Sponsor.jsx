@@ -64,9 +64,9 @@ const Sponsor = () => {
                         borderColor: item.borderColor,
                     }} 
                     className='flex flex-col p-2 items-center justify-center 
-                    w-[200px] h-[200px] md:w-48 md:h-48 lg:w-52 lg:h-52 xl:w-60 xl:h-60 rounded-full border-2'>
-                        <h1 className="font-bold text-center">{item.header}</h1>
-                        <h2 className="text-center">{item.text}</h2>
+                    w-[120px] h-[120px] sm:w-[160px] sm:h-[160px] md:w-48 md:h-48 lg:w-52 lg:h-52 xl:w-60 xl:h-60 rounded-full border-2'>
+                        <h1 className="font-bold text-[12px] sm:text-[16px] md:text-[20px] text-center">{item.header}</h1>
+                        <h2 className="text-center text-[10px] sm:text-[12px] md:text-[16px]">{item.text}</h2>
                     </div>
                 ))}
             </div>

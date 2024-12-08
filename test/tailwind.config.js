@@ -14,6 +14,7 @@ export default {
   		},
   		colors: {
 			myPurple:'#9524FF',
+			myOrange:'#F35656',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
